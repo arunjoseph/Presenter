@@ -1,0 +1,31 @@
+{
+    "name": "joseph/presenter",
+    "description": "Simple View Presenters",
+    "keywords" : [
+        "presenter",
+        "view",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Arun Joseph",
+            "email": "arunjoseph50@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*",
+        "mockery/mockery": "0.9.*"
+    },
+
+    "require-dev" : {
+        "phpspec/phpspec" : "2.0.*@dev"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Joseph\\Presenter": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
